@@ -1,0 +1,42 @@
+$base-color:linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+.p-Home.TextBox7, .p-Home.TextBox130{
+    background: $base-color;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.p-Home.Flex6, .p-Home.Flex204, .p-Home.Flex205{
+   background-image: $base-color; 
+}
+.p-Home.TextBox161, .p-Home.TextBox54, .p-Home.TextBox96, .p-Home.TextBox69, .p-Home.TextBox126, .p-Home.TextBox128, .p-Home.TextBox153, .p-Home.TextBox156, .p-Home.TextBox159{
+    background: $base-color;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 4px;
+}
+.p-Home.Accordion1 .accordion, .p-Home.Accordion2 .accordion, .p-Home.Accordion3 .accordion, .p-Home.Accordion4 .accordion, .p-Home.Accordion5 .accordion, .p-Home.Accordion6 .accordion, .p-Home.Accordion7 .accordion, .p-Home.Accordion8 .accordion{
+    background-color: #000;
+    color: #fff;
+    border-bottom: 1px solid hsla(0, 0%, 89.8%, 0.3);
+    padding: 2px 25px 40px 0px;
+}
+.p-Home.Accordion1 .accordion.active, .p-Home.Accordion2 .accordion.active, .p-Home.Accordion3 .accordion.active, .p-Home.Accordion4 .accordion.active, .p-Home.Accordion5 .accordion.active, .p-Home.Accordion6 .accordion.active, .p-Home.Accordion7 .accordion.active, .p-Home.Accordion8 .accordion.active{
+    border-bottom: none;
+    padding-bottom: 1px;
+}
+.p-Home.Accordion1 .accordion-title, .p-Home.Accordion2 .accordion-title, .p-Home.Accordion3 .accordion-title, .p-Home.Accordion4 .accordion-title, .p-Home.Accordion5 .accordion-title, .p-Home.Accordion6 .accordion-title, .p-Home.Accordion7 .accordion-title, .p-Home.Accordion8 .accordion-title{
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 130%;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+.p-Home.Accordion1 .accordion-content .accordion-text, .p-Home.Accordion2 .accordion-content .accordion-text, .p-Home.Accordion3 .accordion-content .accordion-text, .p-Home.Accordion4 .accordion-content .accordion-text, .p-Home.Accordion5 .accordion-content .accordion-text, .p-Home.Accordion6 .accordion-content .accordion-text, .p-Home.Accordion7 .accordion-content .accordion-text, .p-Home.Accordion8 .accordion-content .accordion-text{
+    background-color: #000;
+    color: #666;
+    font-size: 1.1rem; 
+    border-bottom: 1px solid hsla(0, 0%, 89.8%, 0.3);
+    padding-left: 25px;
+}
+.p-Home.Image41, .p-Home.Image60{
+    filter: grayscale(100%);
+}
